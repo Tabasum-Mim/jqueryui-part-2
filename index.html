@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS link -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Widgets</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12">
+<div id="accordion">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    </p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>
+    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+    suscipit faucibus urna.
+    </p>
+  </div>
+</div>
+
+<div class="ui-widget">
+  <form action="">
+    <input type="text" id="tags">
+  </form>
+</div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+
+          <div class="widget">
+            <h1>Widget</h1>
+            <button>Button with only text</button>
+            <button>Button with icon only</button>
+            <button>Button with icon on the left</button>
+            <button>Button with icon on the right</button>
+            <button>Button with icon on the top</button>
+            <button>Button with icon on the bottom</button>
+          </div>
+
+          <div class="css">
+  <h1>CSS</h1>
+  <button class="ui-button ui-widget ui-corner-all">
+    Button with only text
+  </button>
+  <button class="ui-button ui-widget ui-corner-all ui-button-icon-only" title="Button with icon only">
+    <span class="ui-icon ui-icon-gear"></span> Button with icon only
+  </button>
+  <button class="ui-button ui-widget ui-corner-all">
+    <span class="ui-icon ui-icon-gear"></span> Button with icon on the left
+  </button>
+  <button class="ui-button ui-widget ui-corner-all">
+    Button with icon on the right <span class="ui-icon ui-icon-gear"></span>
+  </button>
+  <button class="ui-button ui-widget ui-corner-all">
+    <span class="ui-icon ui-icon-gear ui-widget-icon-block"></span> Button with icon on the top
+  </button>
+  <button class="ui-button ui-widget ui-corner-all">
+    Button with icon on the bottom <span class="ui-icon ui-icon-gear ui-widget-icon-block"></span>
+  </button>
+</div>
+        </div>
+      </div>  
+
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="widget">
+  <h1>Checkbox and radio button widgets</h1>
+ 
+  <h2>Radio Group</h2>
+  <fieldset>
+    <legend>Select a Location: </legend>
+    <label for="radio-1">New York</label>
+    <input type="radio" name="radio-1" id="radio-1">
+    <label for="radio-2">Paris</label>
+    <input type="radio" name="radio-1" id="radio-2">
+    <label for="radio-3">London</label>
+    <input type="radio" name="radio-1" id="radio-3">
+  </fieldset>
+
+  <h2>Checkbox</h2>
+  <fieldset>
+    <legend>Hotel Ratings: </legend>
+    <label for="checkbox-1">2 Star</label>
+    <input type="checkbox" name="checkbox-1" id="checkbox-1">
+    <label for="checkbox-2">3 Star</label>
+    <input type="checkbox" name="checkbox-2" id="checkbox-2">
+    <label for="checkbox-3">4 Star</label>
+    <input type="checkbox" name="checkbox-3" id="checkbox-3">
+    <label for="checkbox-4">5 Star</label>
+    <input type="checkbox" name="checkbox-4" id="checkbox-4">
+  </fieldset>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Date: <input type="text" id="datepicker"></p>
+        </div>
+
+        <div id="dialog" title="Basic dialog">
+  <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos; x &apos; icon.</p>
+</div>
+      </div>
+
+    </div>
+
+    <!--JS links-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
